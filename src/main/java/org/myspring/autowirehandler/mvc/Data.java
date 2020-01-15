@@ -1,4 +1,4 @@
-package autowirehandler.framework.mvc;
+package org.myspring.autowirehandler.mvc;
 
 public class Data {
     /**

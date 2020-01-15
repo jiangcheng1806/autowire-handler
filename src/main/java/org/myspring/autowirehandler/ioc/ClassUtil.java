@@ -1,4 +1,4 @@
-package autowirehandler.framework.ioc;
+package org.myspring.autowirehandler.ioc;
 
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;

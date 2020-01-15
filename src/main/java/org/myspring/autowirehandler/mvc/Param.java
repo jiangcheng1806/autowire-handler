@@ -1,4 +1,4 @@
-package autowirehandler.framework.mvc;
+package org.myspring.autowirehandler.mvc;
 
 import org.apache.commons.collections4.MapUtils;
 

@@ -1,4 +1,4 @@
-package autowirehandler.framework.ioc;
+package org.myspring.autowirehandler.ioc;
 
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.collections4.MapUtils;

@@ -1,4 +1,4 @@
-package autowirehandler.framework.ioc;
+package org.myspring.autowirehandler.ioc;
 
 public interface ConfigConstant {
     //配置文件的名称

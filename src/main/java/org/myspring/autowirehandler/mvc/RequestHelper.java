@@ -1,4 +1,4 @@
-package autowirehandler.framework.mvc;
+package org.myspring.autowirehandler.mvc;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;

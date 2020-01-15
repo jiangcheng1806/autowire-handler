@@ -1,7 +1,7 @@
-package autowirehandler.framework.mvc;
+package org.myspring.autowirehandler.mvc;
 
-import autowirehandler.framework.ioc.ClassHelper;
-import autowirehandler.framework.ioc.RequestMapping;
+import org.myspring.autowirehandler.ioc.ClassHelper;
+import org.myspring.autowirehandler.ioc.RequestMapping;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.ArrayUtils;
 

@@ -1,4 +1,4 @@
-package autowirehandler.framework.ioc;
+package org.myspring.autowirehandler.ioc;
 
 import java.lang.annotation.Annotation;
 import java.util.HashSet;

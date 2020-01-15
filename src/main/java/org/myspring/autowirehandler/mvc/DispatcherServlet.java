@@ -1,8 +1,8 @@
-package autowirehandler.framework.mvc;
+package org.myspring.autowirehandler.mvc;
 
-import autowirehandler.framework.ioc.BeanHelper;
-import autowirehandler.framework.ioc.ConfigHelper;
-import autowirehandler.framework.ioc.ReflectionUtil;
+import org.myspring.autowirehandler.ioc.BeanHelper;
+import org.myspring.autowirehandler.ioc.ConfigHelper;
+import org.myspring.autowirehandler.ioc.ReflectionUtil;
 import com.alibaba.fastjson.JSON;
 import org.apache.commons.lang3.StringUtils;
 

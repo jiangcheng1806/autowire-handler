@@ -1,9 +1,9 @@
-package autowirehandler.framework.mvc;
+package org.myspring.autowirehandler.mvc;
 
-import autowirehandler.framework.ioc.BeanHelper;
-import autowirehandler.framework.ioc.ClassHelper;
-import autowirehandler.framework.ioc.ClassUtil;
-import autowirehandler.framework.ioc.IocHelper;
+import org.myspring.autowirehandler.ioc.BeanHelper;
+import org.myspring.autowirehandler.ioc.ClassHelper;
+import org.myspring.autowirehandler.ioc.ClassUtil;
+import org.myspring.autowirehandler.ioc.IocHelper;
 
 public class HelperLoader {
     public static void init() {
