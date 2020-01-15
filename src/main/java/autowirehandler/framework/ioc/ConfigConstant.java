@@ -1,4 +1,4 @@
-package autowirehandler.framework;
+package autowirehandler.framework.ioc;
 
 public interface ConfigConstant {
     //配置文件的名称

@@ -1,4 +1,4 @@
-package autowirehandler.framework;
+package autowirehandler.framework.ioc;
 
 import java.util.Properties;
 

@@ -1,4 +1,4 @@
-package autowirehandler.framework;
+package autowirehandler.framework.ioc;
 
 import java.lang.annotation.Annotation;
 import java.util.HashSet;

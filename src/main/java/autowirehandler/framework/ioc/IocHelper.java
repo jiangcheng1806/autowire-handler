@@ -1,4 +1,4 @@
-package autowirehandler.framework;
+package autowirehandler.framework.ioc;
 
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.collections4.MapUtils;
