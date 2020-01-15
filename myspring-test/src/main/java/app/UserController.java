@@ -1,4 +1,4 @@
-package org.myspring.app;
+package app;
 
 import org.myspring.autowirehandler.ioc.Autowired;
 import org.myspring.autowirehandler.ioc.Controller;

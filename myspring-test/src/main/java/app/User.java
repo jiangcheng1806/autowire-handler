@@ -1,4 +1,4 @@
-package org.myspring.app;
+package app;
 
 public class User {
     private Long id;
