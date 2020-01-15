@@ -9,7 +9,8 @@ import java.io.InputStream;
 import java.util.Properties;
 
 public class PropsUtil {
-    private static final Logger LOGGER = LoggerFactory.getLogger(PropsUtil.class);
+//    private static final Logger LOGGER = LoggerFactory.getLogger(PropsUtil.class);
+
 
     public static Properties loadProps(String fileName){
         Properties props = null;
@@ -22,13 +23,15 @@ public class PropsUtil {
             props = new Properties();
             props.load(is);
         } catch (IOException e) {
-            LOGGER.error("load properties file failure", e);
+            //LOGGER.error("load properties file failure", e);
+            System.err.println("load properties file failure");
         } finally {
             if (is != null){
                 try {
                     is.close();
                 } catch (IOException e) {
-                    LOGGER.error("close input stream failure", e);
+                    //LOGGER.error("close input stream failure", e);
+                    System.err.println("close input stream failure");
                 }
             }
         }

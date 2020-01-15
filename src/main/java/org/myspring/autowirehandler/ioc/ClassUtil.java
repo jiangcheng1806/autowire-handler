@@ -15,7 +15,7 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
 public class ClassUtil {
-    private static final Logger LOGGER = LoggerFactory.getLogger(ClassUtil.class);
+//    private static final Logger LOGGER = LoggerFactory.getLogger(ClassUtil.class);
 
     /**
      * 获取类加载器
@@ -35,7 +35,8 @@ public class ClassUtil {
         try {
             cls = Class.forName(className, isInitialized, getClassLoader());
         } catch (ClassNotFoundException e) {
-            LOGGER.error("load class failure", e);
+         //   LOGGER.error("load class failure", e);
+            System.err.println("load class failure");
             throw new RuntimeException(e);
         }
         return cls;
@@ -82,7 +83,8 @@ public class ClassUtil {
                 }
             }
         } catch (Exception e) {
-            LOGGER.error("get class set failure", e);
+        //    LOGGER.error("get class set failure", e);
+            System.err.println("get class set failure");
             throw new RuntimeException(e);
         }
         return classSet;

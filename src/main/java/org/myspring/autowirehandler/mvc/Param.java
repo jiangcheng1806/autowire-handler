@@ -1,6 +1,8 @@
 package org.myspring.autowirehandler.mvc;
 
-import org.apache.commons.collections4.MapUtils;
+//import org.apache.commons.collections4.MapUtils;
+
+import org.apache.commons.collections.MapUtils;
 
 import java.util.Map;
 
